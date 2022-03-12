@@ -1,0 +1,581 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+:root{
+    --bab:'Bebas Neue'
+}
+:root{
+    --ral:'Raleway', sans-serif;
+}
+
+*{margin: 0px;
+padding: 0px;}
+header hr{
+height: 10px;
+background-color: #2ecc71;
+border: none;
+}
+.conteinir{
+    max-width: 1060px;
+margin: auto;
+}
+.conteiner{
+max-width: 1060px;
+margin: auto;
+display: flex;
+justify-content: space-around;
+}
+header{background-image: url('../İmage/img.png');
+}
+header div {
+padding-top: 140px;
+}
+header h1{
+    font: 500 24px var(--bab);
+    width: 442px;
+
+line-height: 36px;
+color: #ffffff;}
+header .conteiner a{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #39271c;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 15px;
+
+}
+.conteiner .hand{
+    padding-top: 100px;
+}
+header .conteiner a i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+transform: translate(-50%,-50%);
+color: #b09c92;
+font-size: 40px;
+}
+header .conteiner a:hover i{
+  
+color: rgb(255, 255, 255);   
+}
+header .conteiner a:hover{
+    background-color: #2dcb71;
+}
+/* 1bitdi */
+/* 2Begin */
+#box2 .conteiner div a img{
+    padding-top: 60px;
+    margin-left: 120px;
+    
+}
+#box2 .conteiner h2{
+    font: 600 22px var(--ral);
+    line-height: 18px;
+    color: #020202;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#box2 .conteiner p{
+    font: 16px var(--bab);
+    /* width: 318px; */
+    text-align: center;
+    line-height: 26px;
+    color: #848484;
+}
+#box2{
+    padding-bottom: 60px;
+}
+/* 2end */
+/* 3begin */
+#box3{
+    background-color: #e3e3e3;
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+#box3 .conteiner div h3{
+    font: 600 22px var(--ral);
+line-height: 18px;
+color: #222222;
+/* padding-top: 60px; */
+}
+#box3 .conteiner div p{
+    font: 16px var(--bab);
+    width: 400px;
+line-height: 26px;
+color: #848484;
+margin: 35px 140px 30px 0px;
+}
+#box3 .conteiner image{
+    margin: 60px auto;
+}
+#box3 .conteiner form{
+    display: flex;
+}
+#box3 .conteiner div input{
+    font: 20px var(--bab);
+    width: 300px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+border-top-left-radius: 15px;
+border-bottom-left-radius: 15px;
+background-color: #ffffff;
+border: none;
+outline: none;
+
+}
+input ::placeholder{
+    color: #848484;  
+}
+#box3 .conteiner div button{
+    width: 141px;
+padding-top: 30px;
+padding-bottom: 25px;
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+background-color: #2ecc71;
+font: 700 22px var(--ral);
+line-height: 18px;
+color: #ffffff;
+outline: none;
+border: none;
+cursor: pointer;
+}
+#box3 .conteiner div button:hover{background-color: aqua;}
+/* 3 bitdi */
+/* 4 begin */
+.conteinir p{
+    /* width: 877px; */
+    text-align: center;
+    font: italic 18px var(--bab);
+line-height: 30px;
+color: #848484;
+text-align: center;
+padding-top: 70px;
+}
+#box4{
+    padding-bottom: 60px;
+}
+.conteinir h4{
+    font: bold 18px var(--ral);
+line-height: 20px;
+color: #2e2e2e;
+text-align: center;
+margin-top: 35px;
+margin-bottom: 35px;
+}
+.conteinir  a img {
+    width: 52px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+    cursor: pointer;
+}
+.conteinir .image a:hover{
+    background-color: #2ecc71;
+}
+
+
+#box4 .conteinir h3{
+    font: 600 24px var(--ral);
+line-height: 24px;
+color: #000000;
+text-align: center;
+margin-top: 60px;
+}
+#box4 .conteinir p:nth-child(2){
+    font: 16px var(--bab);
+line-height: 26px;
+color: #848484;
+text-align: center;
+}
+#box4 .conteinir .iconend a{
+      display: inline-block; 
+      width: 60px;
+    height: 60px;
+    border-radius: 50%;
+ background-color: #d4d4d4;
+    position: relative;
+    margin-left: 10px;
+    
+}
+#box4 .conteinir .iconend a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+#box4 .iconend a:hover{
+background-color:#62d895;
+
+}
+#box4 .iconend{
+    text-align: center;
+    margin-top: 30px;
+}
+/* 4bitdi */
+/* footer begin */
+footer{
+    background-color: #e3e3e3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+footer .conteinir a{
+    font: 16px var(--bab);
+line-height: 26px;
+color: #848484;
+cursor: pointer;
+text-decoration: none;
+padding:50px 25px ;
+margin-left: 35px;
+
+}
+footer .conteinir a:hover{
+    background-color: #2dcb71;
+}
+@media only screen and (max-width:768px){
+    header div {
+        padding-top: 120px;
+        }
+    header h1{
+        font: 500 14px var(--ral);
+        width: 200px;
+        line-height: 20px;}
+        .conteiner .hand{
+            width:300px ;
+            height: 300px;
+        }
+        .conteiner {
+            max-width: 560px;
+            justify-content: space-around;
+        }
+        header .conteiner a{
+    
+            width: 30px;
+            height: 30px;
+            margin-top: 20px;        
+        }
+        header .conteiner a i{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        transform: translate(-50%,-50%);
+        color: #b09c92;
+        font-size: 20px;
+        }
+        #box2 .conteiner div a img{
+    
+            margin-left: 40px;
+            
+        }
+        #box2 .conteiner h2{
+            font: 600 18px var(--ral);
+            line-height: 14px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        #box2 .conteiner p{
+            font: 13px var(--bab);
+            line-height: 20px;
+        }
+        #box2{
+            padding-bottom: 40px;
+}
+#box3{
+    
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+#box3 .conteiner div h3{
+    font: 600 17px var(--ral);
+}
+#box3 .conteiner div p{
+    font: 12px var(--bab);
+    width: 150px;
+line-height: 18px;
+margin: 25px 0px 25px 0px;
+}
+#box3 .conteiner img{
+    margin: 30px 0px;
+    width: 100px;
+    height: 150px;
+    margin-left: 0px;
+}
+#box3 .conteiner div input{
+    font: 14px var(--bab);
+    width: 120px;
+    padding-left: 10px;
+}
+#box3 .conteiner div button{
+    width: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+font: 700 14px var(--ral);
+line-height: 12px;
+
+}
+.conteinir p{
+    width: 400px;
+    margin: auto;
+    font-size: 12px;
+line-height: 14px;
+padding-top: 40px;
+}
+#box4{
+    padding-bottom: 30px;
+}
+.conteinir h4{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.conteinir  a img {
+    width: 20px;
+    height: 20px;
+    object-position: top;
+}
+.conteinir .image{
+    text-align: center;
+}
+#box4 .conteinir h3{
+margin-top: 30px;
+}
+#box4 .conteinir .iconend a{
+    height: 40px;
+    width: 40px;
+}
+#box4 .conteinir .iconend a i{
+    font-size: 20px;
+}
+
+#box4 .iconend{
+    margin-top: 20px;
+}
+footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+footer .conteinir a{
+padding:20px 15px ;
+margin-left: 3px;
+
+}
+
+}
+@media only screen and (max-width:576px){
+    .conteiner div .notify{
+        width: 100px;
+        height: 80px;
+        padding-left: 50px;
+    }
+    header div {
+        padding-top: 50px;
+        }
+    header h1{
+        width: 60px;
+    padding-left: 50px;}
+        .conteiner .hand{
+            width:170px ;
+            height: 200px;
+        }
+        .conteiner {
+            max-width: 560px;
+            justify-content: space-evenly;
+        }
+        header .conteiner a{
+            margin-top: 15px;  
+            padding-left: 0px;   
+        }
+        header .conteiner a i{
+        font-size: 18px;
+        }
+        #box2 .conteiner div a img{
+    
+             margin-left: 5px; 
+            text-align: center;
+            width: 90px;
+            height: 90px;
+        }
+        #box2 .conteiner div a{
+            padding-left: 20px;
+        }
+        #box2 .conteiner h2{
+            font: 600 13px var(--ral);
+            line-height: 10px;
+            margin-top: 30px;
+            margin-bottom: 23px;
+        }
+        #box2 .conteiner p{
+            font: 13px var(--bab);
+            line-height: 20px;
+        }
+        #box2{
+            padding-bottom: 30px;
+}
+
+#box3 .conteiner div h3{
+    font: 600 12px var(--ral);
+}
+#box3 .conteiner div p{
+    font: 10px var(--bab);
+    width: 150px;
+line-height: 15px;
+margin: 20px 0px 20px 0px;
+}
+#box3 .conteiner img{
+    margin: 20px 0px;
+    width: 140px;
+    height: 140px;
+}
+#box3 .conteiner div input{
+    font: 10px var(--bab);
+    width: 60px;
+    padding-left: 10px;
+}
+#box3 .conteiner div button{
+    width: 40px;
+padding-top: 7px;
+padding-bottom: 7px;
+font: 700 10px var(--ral);
+line-height: 10px;
+}
+.conteinir p{
+    
+padding-top: 30px;
+}
+
+.conteinir h4{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.conteinir  a img {
+    width: 20px;
+    height: 20px;
+    object-position: top;
+}
+.conteinir .image{
+    padding-left: 0px;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer .conteinir a{
+    font: 13px var(--bab);
+line-height: 20px;
+padding:14px 16px ;
+margin-left: 3px;
+
+}
+}
+@media only screen and (max-width:992px){
+        .conteinir{
+            max-width: 970px;
+        }
+        .conteiner{
+        max-width: 970px;
+        justify-content: space-around;
+       
+        }
+        header h1{
+            width: 350px;
+       }
+        header .conteiner a{
+            width: 50px;
+            height: 50px;
+            margin-top: 25px;
+            margin-left: 15px;
+        
+        }
+        header .conteiner .hand{
+            width: 300px;
+            height: 300px;
+            
+        }
+       
+        header .conteiner a i{
+            
+        font-size: 35px;
+        }
+        
+        /* 1bitdi */
+        /* 2Begin */
+        #box2 .conteiner div a img{
+            margin-left: 100px;
+            
+        }
+        /* 2end */
+        /* 3begin */
+        #box3 .conteiner div p{
+            width: 370px;
+        
+        margin: 35px 40px 30px 0px;
+        }
+        #box3 .conteiner img{
+            margin: 30px 0px;
+            width: 350px;
+            height: 300px;
+        }
+        #box3 .conteiner div input{
+            width: 200px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        }
+       
+        #box3 .conteiner div button{
+            width: 70px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font: 700 15px var(--ral);
+        line-height: 18px;
+
+        }
+
+        /* 3 bitdi */
+        /* 4 begin */
+        .conteinir p{
+            /* width: 877px; */
+        }
+        #box4{
+            padding-bottom: 60px;
+        }
+       
+        .conteinir  a img {
+            width: 40px;
+            height: 40px;
+           
+        }
+        #box4 .conteinir .image{
+            text-align: center;
+        }
+   
+       
+        /* 4bitdi */
+        /* footer begin */
+        footer{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            text-align: center;
+        }
+        footer .conteinir a{
+        padding:20px 20px ;
+        margin-left: 20px;
+     
+        
+        }
+}
